@@ -1,25 +1,25 @@
 # MathEngine
-Á÷Á¢ ¸¸µç ¼öÇÐ ¿£ÁøÀÔ´Ï´Ù.
+ì§ì ‘ ë§Œë“  ìˆ˜í•™ ì—”ì§„ìž…ë‹ˆë‹¤.
 
 # features 
-- Constans : »ó¼ö Á¤ÀÇ
+- Constans : ìƒìˆ˜ ì •ì˜
 
-- MathUtils : ÀÚÁÖ »ç¿ëµÇ´Â ¼öÇÐ ÇÔ¼ö Á¤ÀÇ
+- MathUtils : ìžì£¼ ì‚¬ìš©ë˜ëŠ” ìˆ˜í•™ í•¨ìˆ˜ ì •ì˜
 
-- Vector2 : 2Â÷¿ø º¤ÅÍ
-- Matrix2x2 : 2x2 Çà·Ä
+- Vector2 : 2ì°¨ì› ë²¡í„°
+- Matrix2x2 : 2x2 í–‰ë ¬
 
 # Dependency
-Constans <- MathUtils
+- Constans <- MathUtils
 
-MathUtils <- Vector2
-MathUtils <- Matrix2x2
+- MathUtils <- Vector2
+- MathUtils <- Matrix2x2
 
-Vector <- Matrix2x2
+- Vector <- Matrix2x2
 
 # Journal
-: ÇÁ·ÎÁ§Æ®¸¦ ÁøÇàÇÏ¸é¼­ ±âÅ¸ ´À³¤ °Í
+í”„ë¡œì íŠ¸ë¥¼ ì§„í–‰í•˜ë©´ì„œ ê¸°íƒ€ ëŠë‚€ ê²ƒ
 
-## Ç¥ÁØ ¶óÀÌºê·¯¸®¿Í ÀÌ¸§ÀÌ °ãÄ¡´Â ÀÏÀÌ ¾øµµ·Ï ÇÏÀÚ 
-`Math.h` ·Î ÆÄÀÏÀ» ¸¸µé¾ú´Ù°¡  `<math.h>` ¶óÀÌºê·¯¸®¿Í ÀÌ¸§ÀÌ Áßº¹µÇ´Â ¹Ù¶÷¿¡ ÀÇµµÄ¡ ¾Ê´Â ¿À·ù¸¦ °Þ¾ú´Ù.
+## í‘œì¤€ ë¼ì´ë¸ŒëŸ¬ë¦¬ì™€ ì´ë¦„ì´ ê²¹ì¹˜ëŠ” ì¼ì´ ì—†ë„ë¡ í•˜ìž 
+`Math.h` ë¡œ íŒŒì¼ì„ ë§Œë“¤ì—ˆë‹¤ê°€  `<math.h>` ë¼ì´ë¸ŒëŸ¬ë¦¬ì™€ ì´ë¦„ì´ ì¤‘ë³µë˜ëŠ” ë°”ëžŒì— ì˜ë„ì¹˜ ì•ŠëŠ” ì˜¤ë¥˜ë¥¼ ê²ªì—ˆë‹¤.
 _2023-07-30_
