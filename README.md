@@ -10,12 +10,18 @@
 - Matrix2x2 : 2x2 행렬
 
 # Dependency
-- Constans <- MathUtils
+- <cmath>
+  - MathUtils
+  
+- Constans
+  - MathUtils
 
-- MathUtils <- Vector2
-- MathUtils <- Matrix2x2
+- MathUtils
+  - Vector2
+  - Matrix2x2
 
-- Vector <- Matrix2x2
+- Vector
+  - Matrix2x2
 
 # Journal
 프로젝트를 진행하면서 기타 느낀 것
